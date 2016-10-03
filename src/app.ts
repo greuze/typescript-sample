@@ -94,4 +94,4 @@ class Server {
 }
 
 var server = Server.bootstrap();
-export = server.app;
+module.exports = server.app;
